@@ -48,41 +48,41 @@ C:\gradle-3.5
 
 ## path
 
-%JAVA_HOME%\bin;
-%ANDROID_HOME%\tools
-%ANDROID_HOME%\platform-tools
-%ANDROID_HOME%\build-tools
-%ANDROID_HOME%\cmdline-tools\latest\bin
-%ANDROID_HOME\emulator
-%GRADLE_HOME%\bin
-c:\HybridApp\apace-ant-1.9.16\bin
+%JAVA_HOME%\bin;  
+%ANDROID_HOME%\tools  
+%ANDROID_HOME%\platform-tools  
+%ANDROID_HOME%\build-tools  
+%ANDROID_HOME%\cmdline-tools\latest\bin  
+%ANDROID_HOME\emulator  
+%GRADLE_HOME%\bin  
+c:\HybridApp\apace-ant-1.9.16\bin  
 
 # 6. Node.js 설치하기
-"node js 설치" 검색 후 다운로드
+"node js 설치" 검색 후 다운로드  
 
-node -v
-npm -v
-npm update -g
+node -v  
+npm -v  
+npm update -g  
 
 
 # 7. 폰갭(코르도바 설치하기)
-npm install -g phonegap
-npm install -g cordova
-cordova -v
-npm update -g phonegap
-npm update -g cordova
+npm install -g phonegap  
+npm install -g cordova  
+cordova -v  
+npm update -g phonegap  
+npm update -g cordova  
 
 
 # 8. 안드로이드 스튜디오 설치
-안드로이드 코르도바 앱 만들기
-mkdir \HybridProject
-cd \HybridProject
-cordova create test com.example.test testApp -d
-cd test
-dir
-dir platform
-cordova platform add android
-dir platform
+안드로이드 코르도바 앱 만들기  
+mkdir \HybridProject  
+cd \HybridProject  
+cordova create test com.example.test testApp -d  
+cd test  
+dir  
+dir platform  
+cordova platform add android  
+dir platform  
 
 
 # 9. build.gradle(:app) -> 안드로이드 스튜디오
@@ -112,8 +112,8 @@ dir platform
 }
 
 # 10. AndroidManifest.xml
--application 안에
-android:largeHeap="true" 넣기
+-application 안에  
+android:largeHeap="true" 넣기  
 
 
 # 11. C:\Users[사용자명].android 내에 있는 debug.keystore파일 삭제
@@ -121,16 +121,16 @@ android:largeHeap="true" 넣기
 
 
 # 12. 자신이 만든 프로젝트의 첫 번째 파일 이름을 index.html로 변경, CDN 방식을 Download 방식으로 변경
-## Download 방식
-> <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
-> <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-> <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-## CDN 방식
-> <link rel="stylesheet" href="./jquery/jquery.mobile-1.4.5.min.css">
-> <script src="./jquery/jquery-1.11.1.min.js"></script>
-> <script src="./jquery/jquery.mobile-1.4.5.min.js"></script>
-아래에 아래의 코드 추가
-<script src="cordova.js"></script>
+## Download 방식  
+> <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>  
+> <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>  
+> <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>  
+## CDN 방식  
+> <link rel="stylesheet" href="./jquery/jquery.mobile-1.4.5.min.css">  
+> <script src="./jquery/jquery-1.11.1.min.js"></script>  
+> <script src="./jquery/jquery.mobile-1.4.5.min.js"></script>  
+아래에 아래의 코드 추가  
+<script src="cordova.js"></script>  
 
 ## 13. 프로젝트 폴더에 있는 모든 파일을 test 폴더 아래에 있는 www 폴더로 복사
 
@@ -140,11 +140,11 @@ android:largeHeap="true" 넣기
 
 ## 16. 컴퓨터와 폰 연결
 
-# 17. AVD 실행 혹은 스마트폰 컴과 연결
-cordova run android --list
-cordova emulate android
-(에뮬레이터에 실행)
+# 17. AVD 실행 혹은 스마트폰 컴과 연결  
+cordova run android --list  
+cordova emulate android  
+(에뮬레이터에 실행)  
 
-cordova run android
-(기기에 실행)
+cordova run android  
+(기기에 실행)  
 
