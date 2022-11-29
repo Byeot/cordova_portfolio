@@ -122,17 +122,17 @@ android:largeHeap="true" 넣기
 
 # 12. 자신이 만든 프로젝트의 첫 번째 파일 이름을 index.html로 변경, CDN 방식을 Download 방식으로 변경
 ## Download 방식  
- <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>       
- <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>      
- <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>  
+ > <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>       
+ > <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>      
+ > <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>  
  
  
 ## CDN 방식  
- <link rel="stylesheet" href="./jquery/jquery.mobile-1.4.5.min.css">  
- <script src="./jquery/jquery-1.11.1.min.js"></script>    
- <script src="./jquery/jquery.mobile-1.4.5.min.js"></script>    
-아래에 아래의 코드 추가    
-<script src="cordova.js"></script>    
+> <link rel="stylesheet" href="./jquery/jquery.mobile-1.4.5.min.css">  
+> <script src="./jquery/jquery-1.11.1.min.js"></script>    
+> <script src="./jquery/jquery.mobile-1.4.5.min.js"></script>    
+> 아래에 아래의 코드 추가    
+> <script src="cordova.js"></script>    
 
 # 13. 프로젝트 폴더에 있는 모든 파일을 test 폴더 아래에 있는 www 폴더로 복사   
 
