@@ -1,9 +1,6 @@
-# 기본환경설정 
-
-
+# JDK 설치
 
 jdk-8u162-windows-x64.exe
-
 
 2.0 \hybridapp 디렉토리 만들기
 
@@ -49,7 +46,7 @@ C:\Users\608\AppData\Local\Android\android-sdk
 GRADLE_HOME
 C:\gradle-3.5
 
-Path
+## path
 
 %JAVA_HOME%\bin;
 %ANDROID_HOME%\tools
@@ -89,28 +86,28 @@ dir platform
 
 
 # 9. build.gradle(:app) -> 안드로이드 스튜디오
-android 안에
-packagingOptions {
+> android 안에
+ > packagingOptions {
 
-  exclude 'META-INF/DEPENDENCIES.txt'
+  > exclude 'META-INF/DEPENDENCIES.txt'
 
-  exclude 'META-INF/LICENSE.txt'
+  > exclude 'META-INF/LICENSE.txt'
 
-  exclude 'META-INF/NOTICE.txt'
+  > exclude 'META-INF/NOTICE.txt'
 
-  exclude 'META-INF/NOTICE'
+  > exclude 'META-INF/NOTICE'
 
-  exclude 'META-INF/LICENSE'
+  > exclude 'META-INF/LICENSE'
 
-  exclude 'META-INF/DEPENDENCIES'
+  > exclude 'META-INF/DEPENDENCIES'
 
-  exclude 'META-INF/notice.txt'
+  > exclude 'META-INF/notice.txt'
 
-  exclude 'META-INF/license.txt'
+  > exclude 'META-INF/license.txt'
 
-  exclude 'META-INF/dependencies.txt'
+  > exclude 'META-INF/dependencies.txt'
 
-  exclude 'META-INF/LGPL2.1'
+  > exclude 'META-INF/LGPL2.1'
 
 }
 
@@ -124,24 +121,24 @@ android:largeHeap="true" 넣기
 
 
 # 12. 자신이 만든 프로젝트의 첫 번째 파일 이름을 index.html로 변경, CDN 방식을 Download 방식으로 변경
-Download 방식
-<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
-<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-CDN 방식
-<link rel="stylesheet" href="./jquery/jquery.mobile-1.4.5.min.css">
-<script src="./jquery/jquery-1.11.1.min.js"></script>
-<script src="./jquery/jquery.mobile-1.4.5.min.js"></script>
+## Download 방식
+> <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+> <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+> <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+## CDN 방식
+> <link rel="stylesheet" href="./jquery/jquery.mobile-1.4.5.min.css">
+> <script src="./jquery/jquery-1.11.1.min.js"></script>
+> <script src="./jquery/jquery.mobile-1.4.5.min.js"></script>
 아래에 아래의 코드 추가
 <script src="cordova.js"></script>
 
-# 13. 프로젝트 폴더에 있는 모든 파일을 test 폴더 아래에 있는 www 폴더로 복사
+## 13. 프로젝트 폴더에 있는 모든 파일을 test 폴더 아래에 있는 www 폴더로 복사
 
-# 14. "삼성 USB 드라이버" 검색하여 파일 다운로드 및 설치
+## 14. "삼성 USB 드라이버" 검색하여 파일 다운로드 및 설치
 
-# 15. "USB 디버깅 설정 방법" 검색하여 폰을 USB 디버깅 상태로 설정
+## 15. "USB 디버깅 설정 방법" 검색하여 폰을 USB 디버깅 상태로 설정
 
-# 16. 컴퓨터와 폰 연결
+## 16. 컴퓨터와 폰 연결
 
 # 17. AVD 실행 혹은 스마트폰 컴과 연결
 cordova run android --list
