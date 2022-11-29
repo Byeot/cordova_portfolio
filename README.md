@@ -157,4 +157,5 @@ cordova emulate android
 
 cordova run android  
 (기기에 실행)  
+![image](https://user-images.githubusercontent.com/94339420/204435506-59f42784-258b-42ee-a598-4255a274686d.png)
 
