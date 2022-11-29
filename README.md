@@ -1,20 +1,20 @@
 # 1, JDK 설치
 
-jdk-8u162-windows-x64.exe
+> jdk-8u162-windows-x64.exe
 
-2.0 \hybridapp 디렉토리 만들기
+> 2.0 \hybridapp 디렉토리 만들기
 
-cd \
-md hybridapp
+> cd \
+> md hybridapp
 
 
 # 2. 아파치 앤트 설치하기
-c:\HybridApp\폴더에 apache-ant-1.9.16-bin.zip 다운로드
-알아서 풀기
+> c:\HybridApp\폴더에 apache-ant-1.9.16-bin.zip 다운로드
+> 알아서 풀기
 
 
 # 3. Gradle 설치하기
-c:\HybridApp\폴더에 gradle-3.5.zip 다운로드 알아서 풀기
+> c:\HybridApp\폴더에 gradle-3.5.zip 다운로드 알아서 풀기
 
 
 # 4. 안드로이드 플랫폼 패키지 추가 설치하기
@@ -134,18 +134,20 @@ android:largeHeap="true" 넣기
 > 아래에 아래의 코드 추가    
 > <script src="cordova.js"></script>    
 
+
+  
 # 13. 프로젝트 폴더에 있는 모든 파일을 test 폴더 아래에 있는 www 폴더로 복사   
 
 
-
+  
 # 14. "삼성 USB 드라이버" 검색하여 파일 다운로드 및 설치  
 
 
-
+  
 # 15. "USB 디버깅 설정 방법" 검색하여 폰을 USB 디버깅 상태로 설정  
 
 
-
+  
 # 16. 컴퓨터와 폰 연결  
 
 
