@@ -4,7 +4,7 @@
 포트폴리오를 하이브리드 모바일 앱으로 제작한 것입니다.
 
 ### 코르도바 실행 화면
-<img src="https://user-images.githubusercontent.com/94339489/203670293-90d12202-6bfa-4911-9221-c27208c1d573.jpg"  height="600"/> <img src="https://user-images.githubusercontent.com/94339489/203670344-9e81dd07-8434-4e25-b7cd-ec09d1bfcd83.jpg" height="600"/>
+<img src="https://user-images.githubusercontent.com/94339420/205505149-0a7ae3d9-1517-4437-89e8-2d6afee3ceaa.png"  height="600"/> <img src="https://user-images.githubusercontent.com/94339420/205505207-44e95fe6-eb7f-49ca-a6ac-797c50837063.pngg" height="600"/>
 
 
 # 코르도바 앱 환경설정
